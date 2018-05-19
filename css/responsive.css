@@ -1,0 +1,170 @@
+/*This is the responsive css file*/
+/*common*/
+@media screen and (max-width: 999px) {
+    #header-main {
+        width: 100%;
+    }
+
+    #main-section {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 401px) {
+    #footer-nav a {
+        font-size: 2em;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+}
+
+
+
+/*small*/
+@media screen and (max-width: 400px) {
+    #footer-nav a {
+        font-size: 1.7em;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 474px) {
+    .hero-image {
+        background-image: url("../images/hero-image-extra-small.jpg");
+    }
+}
+
+
+
+/*small-medium*/
+@media screen and (max-width: 564px) {
+    #header-left-image {
+        width: 13%;
+    }
+
+    #header-right-intro {
+        width: 87%;
+
+    }
+
+    #header-name {
+        font-size: 2em;
+    }
+
+    #header-occupation {
+        font-size: .9em;
+    }
+
+    .hero-overlay {
+        opacity: 1;
+    }
+
+    .featured-item {
+        width: calc(100% - 120px);
+        margin: 15px 60px;
+    }
+
+    #featured-work-logo {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 475px) and (max-width: 599px) {
+    .hero-image {
+        background-image: url("../images/hero-image-small.jpg");
+    }
+}
+
+
+
+/*medium*/
+@media screen and (min-width: 565px) and (max-width:799px) {
+    #header-left-image {
+        width: 9.5%;
+    }
+
+    #header-right-intro {
+        width: 90.5%;
+
+    }
+
+    #header-name {
+        font-size: 3em;
+    }
+
+    .hero-overlay {
+        opacity: 1;
+        line-height: 1.3em;
+    }
+
+    .featured-item {
+        width: calc((100% - 120px)/2);
+        margin: 15px 30px;
+    }
+
+    #featured-work-logo {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 699px) {
+    .hero-image {
+        background-image: url("../images/hero-image-medium.jpg");
+    }
+}
+
+
+
+/*large*/
+@media screen and (min-width: 800px) {
+    #header-left-image {
+        width: 7%;
+    }
+
+    #header-right-intro {
+        width: 93%;
+
+    }
+
+    #header-name {
+        font-size: 3em;
+    }
+
+    .hero-overlay {
+        opacity: 0;
+        line-height: 1.3em;
+    }
+
+    .featured-item {
+        width: calc((100% - 90px)/3);
+        margin: 15px;
+    }
+
+    #featured-work-logo {
+        text-align: left;
+    }
+}
+
+
+
+/*extra-large*/
+@media screen and (min-width: 1000px) {
+    #header-main {
+        width: 1000px;
+    }
+
+    #main-section {
+        width: 800px;
+    }
+
+    #footer-nav {
+        width: 800px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .hero-image {
+        background-image: url("../images/hero-image-large.jpg");
+    }
+}
