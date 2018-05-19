@@ -5,7 +5,7 @@ This is Project 1 in the Udacity/Google Frontend Nanodegree course. I was lucky 
 Your brain.
 
 ## Getting Started
-Navigate to:
+[navigate here](https://evanhumanist.github.io/build-a-portfolio-site/portfolio-home.html)
 
 ## Contributing
 Bugger off, this is my project!
